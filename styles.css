@@ -1,0 +1,151 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"popins";
+}
+
+
+
+/* cabeçalho*/
+header{
+    background-color: #00a7e1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #006890;
+    
+}
+
+/* Estilos para a lista de navegação */
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #1799a9;
+}
+
+/* Estilos para cada item da lista de navegação */
+.nav-menu li {
+    display: inline;
+    margin-right: 100px; /* Espaçamento entre os itens */
+    margin-left: 100px;
+    border-color: #00344b;
+    
+}
+
+/* Estilos para os links da lista de navegação */
+.nav-menu li a {
+    text-decoration: none;
+    color: #333; /* Cor do texto dos links */
+    font-weight: bold; /* Negrito */
+    transition: color 0.3s; /* Transição suave da cor do texto */
+    
+}
+
+/* Estilos para os links ativos */
+.nav-menu li a.active {
+    color:black; /* Cor do texto do link ativo */
+}
+
+/* Estilos para os links quando o cursor está sobre eles */
+.nav-menu li a:hover {
+    color: #007bff; /* Cor do texto dos links ao passar o mouse */
+}
+
+
+
+/*grid de produtos*/
+.container{
+background-color: #eee;
+min-height: 60vh;
+padding: 50px;
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1% ;
+    padding: 15px;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+background-image: url(../img/air-force1.jpg);
+}
+
+#img-2{
+    background-image: url(../img/dunk-low-green.webp);
+    }
+#img-3{
+        background-image:url(../img/dunk-low-polarblue.webp);
+    }
+#img-4{
+    background-image: url(../img/air-force-shadow.jpg);
+}
+
+#img-5{
+    background-image: url(../img/court-vision-low.webp);
+}
+
+#img-6{
+    background-image: url(../img/superstar-bege.jpg);
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #00a7e1;
+    border-left: 5px solid #006890;
+    padding-left: 7px
+    font-size: 24px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #00a7e1;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;    
+}
+
+.btn:hover{
+    background-color: #006890;
+}
+
+/*footer*/
+footer{
+    background-color: #00344b;
+    color: #fff;
+    border-top: 3px solid #0000314;
+    text-align: center;
+    padding: 80px;
+}
